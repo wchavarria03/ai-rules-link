@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [0.0.2] - Rules formatter improvements - 2025-06-30
 - Standardize frontmatter in all rule markdown files for consistency
 
 ## [0.0.1] - Initial Release - 2025-06-30
