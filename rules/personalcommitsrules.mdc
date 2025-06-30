@@ -1,5 +1,8 @@
+---
 description: Commit message rules for personal projects
+globs:
 alwaysApply: true
+---
 
 # Use Conventional Commits format for personal projects
 

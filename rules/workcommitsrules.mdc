@@ -1,5 +1,8 @@
+---
 description: Commit message rules for work projects (uses ticket prefix)
+globs:
 alwaysApply: true
+---
 
 When creating commit messages for work projects, follow these rules:
 

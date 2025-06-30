@@ -1,5 +1,8 @@
+---
 description: Go language specific set of rules
+globs:
 alwaysApply: true
+---
 
 **Go-Specific Instructions:**
 

@@ -1,5 +1,8 @@
+---
 description: Python language specific set of rules
+globs:
 alwaysApply: true
+---
 
 **Python-Specific Instructions:**
 

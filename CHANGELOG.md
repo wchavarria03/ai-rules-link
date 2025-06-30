@@ -1,6 +1,7 @@
 # Changelog
 
 ## [Unreleased]
+- Standardize frontmatter in all rule markdown files for consistency
 
 ## [0.0.1] - Initial Release - 2025-06-30
 - Modular Go CLI for symlinking and consolidating AI rules.

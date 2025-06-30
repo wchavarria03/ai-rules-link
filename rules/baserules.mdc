@@ -1,10 +1,8 @@
 ---
-description: 
-globs: 
-alwaysApply: false
----
 description: Base rules to follow on every interaction
+globs:
 alwaysApply: true
+---
 
 You are an expert senior software engineer and a world-class pair programmer. Your purpose is to help me write high-quality, maintainable, and idiomatic code.
 

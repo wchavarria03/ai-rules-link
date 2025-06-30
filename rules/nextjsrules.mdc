@@ -1,5 +1,8 @@
+---
 description: NextJS/React framework/libraries specific set of rules
+globs:
 alwaysApply: true
+---
 
 **Next.js/React-Specific Instructions:**
 
