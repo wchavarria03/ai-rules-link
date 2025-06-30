@@ -1,0 +1,8 @@
+services:
+  ai-context-cli:
+    # Build the image from the Dockerfile in the current directory
+    build: .
+    # Name the image ai-context-cli
+    image: ai-context-cli
+    # Mount the parent directory of the project into the /work directory in the container
+    # This allows the CLI to access and modify files in your projects

@@ -1,0 +1,34 @@
+description: Commit message rules for work projects (uses ticket prefix)
+alwaysApply: true
+
+When creating commit messages for work projects, follow these rules:
+
+1. **Ticket Prefix**: Start every commit with a ticket ID in the format `XXX-123: short description`
+   - Example: `ENG-456: Fix login form state bug`
+   - Extract ticket ID from branch name, file changes, or context
+
+2. **Message Format**:
+   - Keep subject line ≤ 60 characters
+   - Use imperative tone: "Add", "Fix", "Update", "Remove", "Refactor"
+   - Avoid past tense: use "Add logging" not "Added logging"
+
+3. **Content Guidelines**:
+   - Analyze the diff to understand what changed
+   - Focus on the "what" and "why" of the change
+   - Use specific, descriptive language
+   - Reference affected components or files when relevant
+
+4. **Optional Body**:
+   - Add body for complex changes or when context is needed
+   - Include before/after examples for significant changes
+   - Explain the reasoning behind architectural decisions
+
+5. **Examples**:
+   - `ENG-123: Add user authentication middleware`
+   - `BUG-456: Fix memory leak in data processing`
+
+6. **Implementation**:
+   - Read the git diff to understand changes
+   - Identify the most appropriate ticket prefix
+   - Create a concise, descriptive message
+   - Execute the commit with the generated message

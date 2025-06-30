@@ -1,0 +1,10 @@
+description: NextJS/React framework/libraries specific set of rules
+alwaysApply: true
+
+**Next.js/React-Specific Instructions:**
+
+1.  **Component Structure:** Follow the existing component structure (e.g., colocated styles, tests, stories). Use functional components with Hooks.
+2.  **File-Based Routing:** Be aware of the `pages/` or `app/` directory routing conventions.
+3.  **State Management:** Use the existing state management solution (e.g., React Context, Redux, Zustand) consistently.
+4.  **Typing:** Use TypeScript for all new code. Define clear types and interfaces.
+5.  **Dependencies:** Reference `package.json` for all dependencies and scripts.

@@ -1,0 +1,33 @@
+description: Commit message rules for personal projects
+alwaysApply: true
+
+# Use Conventional Commits format for personal projects
+
+## ✏️ Commit Message Format
+- Format: `type(scope?): subject`
+- Example: `feat(auth): add OAuth2 support`
+
+## 🔠 Allowed Types
+- `feat`: A new feature
+- `fix`: A bug fix
+- `docs`: Documentation only changes
+- `style`: Formatting, no logic change (e.g., whitespace)
+- `refactor`: Code change that neither fixes a bug nor adds a feature
+- `test`: Adding or fixing tests
+- `chore`: Tooling, build, dependency updates, etc.
+
+## 📏 Formatting Rules
+- Scope is optional, lowercase and in parentheses
+- Use imperative tone: "Add" not "Adds" or "Added"
+- Subject line must be ≤ 50 characters
+- Do **not** use a trailing period
+- Wrap body at 60–72 characters (if present)
+
+## 📜 Optional Commit Body
+- Include a body when the change needs context
+- Describe the motivation and technical reasoning
+
+## ✅ Examples
+- `feat(blog): add syntax highlighting to code blocks`
+- `chore(deps): update eslint and prettier`
+- `docs: add README section on setup`

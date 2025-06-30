@@ -1,0 +1,10 @@
+description: Go language specific set of rules
+alwaysApply: true
+
+**Go-Specific Instructions:**
+
+1.  **Standard Library:** Prefer the standard library over third-party packages for common tasks.
+2.  **Error Handling:** Use idiomatic `if err != nil` error handling.
+3.  **Formatting:** All code must be formatted with `gofmt` or `goimports`.
+4.  **Modules:** Be mindful of the `go.mod` file for dependencies and module paths.
+5.  **Concurrency:** When suggesting concurrent code, use channels and goroutines safely and explain potential race conditions.
