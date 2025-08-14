@@ -1,0 +1,69 @@
+---
+description: when asked to generate a pull request
+alwaysApply: false
+---
+
+## Creating a pull request Steps
+
+When asked to create a pull request, you should follow these steps:
+
+1. **Determine target repository and branch**:
+   - Always open PR from `origin` (your fork) to `upstream` (main repository)
+   - If no target branch is specified, default to `main` 
+   - If target branch is specified (e.g., `staging`, `develop`), use that branch
+   - Use git remote to identify: `origin` = your fork, `upstream` = main repo
+
+2. **PR title format**:
+```
+[ticket_number]: <description> 
+```
+
+3. **Check for PR template**:
+   - Search for `.github/PULL_REQUEST_TEMPLATE.md`
+   - If template available, follow it exactly
+   - If no template available, use the fallback template below
+
+4. **Create the PR**:
+   - Use GitHub API to create PR from `origin/current-branch` to `upstream/target-branch`
+   - Extract ticket number from branch name (e.g., `HAL-123`, `CC-1234`)
+   - Target branch: `main` (default) or specified branch (`staging`, `develop`, etc.)
+
+5. **Fallback template** (if no `.github/PULL_REQUEST_TEMPLATE.md` exists):
+
+```md
+### Background
+
+
+### Summary
+
+-
+- 
+
+### Ticket
+
+- https://ltvco.atlassian.net/browse/[ticket_number]
+
+### Results / Tests
+
+```
+
+--------------
+
+**Template Guidelines**:
+1. **Background**: Small description about the business logic behind these changes
+2. **Summary**:
+    - Simple bullet points list with the changes applied on this PR
+    - Each point should be no more than one line
+    - Files and variables could be mentioned using syntax `file.go` or `VARIABLE`
+3. **Ticket**:
+    - Full URL should always be used
+    - Ticket number should be taken from the branch name
+    - Ticket number examples: `HAL-123`, `CC-1234`
+
+**Repository Configuration**:
+- **Head repository**: `origin` (your fork)
+- **Base repository**: `upstream` (main repository) 
+- **Base branch**: `main` (default) or specified branch
+- **Head branch**: current branch
+
+Make sure to always respond *only* with the URL resulting from the PR created
