@@ -1,5 +1,7 @@
 # ai-rules-link
 
+> **Not in use anymore.** This tool is no longer maintained or used by its author. The repository is kept for reference only.
+
 <!-- Badges -->
 [![License: PolyForm Noncommercial](https://img.shields.io/badge/license-PolyForm%20Noncommercial-blue.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 [![Go Report Card](https://goreportcard.com/badge/github.com/wchavarria03/ai-rules-link)](https://goreportcard.com/report/github.com/wchavarria03/ai-rules-link)
